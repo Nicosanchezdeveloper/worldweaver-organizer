@@ -13,6 +13,7 @@ import { ManageWorldsComponent } from './manage-worlds/manage-worlds.component';
 import { ManageCharactersComponent } from './manage-characters/manage-characters.component';
 import { ManageObjectsComponent } from './manage-objects/manage-objects.component';
 import { ManageAbilitiesComponent } from './manage-abilities/manage-abilities.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ManageAbilitiesComponent } from './manage-abilities/manage-abilities.co
     ManageWorldsComponent,
     ManageCharactersComponent,
     ManageObjectsComponent,
-    ManageAbilitiesComponent
+    ManageAbilitiesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

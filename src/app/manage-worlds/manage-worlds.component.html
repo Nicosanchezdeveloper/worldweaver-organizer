@@ -1,1 +1,13 @@
-<p>manage-worlds works!</p>
+<div class="d-flex flex-column justify-content-center align-items-center w-100 vh-100">
+    
+    
+    <h2>Manage Worlds</h2>
+    <a href="">Create New World</a>
+    <div class="w-100 h-75">
+        @for (card of cards; track card.idCard) {
+            <app-card [title]="card.title" [description]="card.description" [image]="card.image" [idCard]="card.idCard"></app-card>
+        }
+
+    </div>
+
+</div>
